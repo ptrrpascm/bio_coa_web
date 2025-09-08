@@ -779,7 +779,7 @@
                     <av:Size x:Key="ShapeSize">110,70</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Download and manage file" sap:VirtualizedContainerService.HintSize="800,4189" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                <Sequence DisplayName="Download and manage file" sap:VirtualizedContainerService.HintSize="1342,9095" sap2010:WorkflowViewState.IdRef="Sequence_37">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="mock_lot" />
                     <Variable x:TypeArguments="x:String" Name="folder_file_path_split_scope" />
@@ -789,14 +789,14 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="738,175" sap2010:WorkflowViewState.IdRef="LogMessage_23" Message="[&quot;READY !&quot;]">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1280,175" sap2010:WorkflowViewState.IdRef="LogMessage_23" Message="[&quot;READY !&quot;]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:LogMessage>
-                  <Assign sap:VirtualizedContainerService.HintSize="738,115" sap2010:WorkflowViewState.IdRef="Assign_9">
+                  <Assign sap:VirtualizedContainerService.HintSize="1280,115" sap2010:WorkflowViewState.IdRef="Assign_9">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[folder_file_path_split_scope]</OutArgument>
                     </Assign.To>
@@ -804,7 +804,7 @@
                       <InArgument x:TypeArguments="x:String">C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Bill_split_COA</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="738,115" sap2010:WorkflowViewState.IdRef="Assign_6">
+                  <Assign sap:VirtualizedContainerService.HintSize="1280,115" sap2010:WorkflowViewState.IdRef="Assign_6">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[mock_lot]</OutArgument>
                     </Assign.To>
@@ -812,19 +812,19 @@
                       <InArgument x:TypeArguments="x:String">407901b</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Resource Center | Search ~ EIFU" sap:VirtualizedContainerService.HintSize="738,3696" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V2">
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Resource Center | Search ~ EIFU" sap:VirtualizedContainerService.HintSize="1280,8602" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do - chorm" sap:VirtualizedContainerService.HintSize="704,3455" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                        <Sequence DisplayName="Do - chorm" sap:VirtualizedContainerService.HintSize="1246,8361" sap2010:WorkflowViewState.IdRef="Sequence_38">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.xlsx" Folder="[folder_file_path_split_scope]" sap:VirtualizedContainerService.HintSize="642,3365" sap2010:WorkflowViewState.IdRef="ForEachFileX_4" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                          <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.xlsx" Folder="[folder_file_path_split_scope]" sap:VirtualizedContainerService.HintSize="1184,8271" sap2010:WorkflowViewState.IdRef="ForEachFileX_4" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                             <ui:ForEachFileX.Body>
                               <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                                 <ActivityAction.Argument1>
@@ -833,22 +833,24 @@
                                 <ActivityAction.Argument2>
                                   <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                 </ActivityAction.Argument2>
-                                <Sequence DisplayName="Do - For each file" sap:VirtualizedContainerService.HintSize="608,3073" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                                <Sequence DisplayName="Do - For each file" sap:VirtualizedContainerService.HintSize="1150,7979" sap2010:WorkflowViewState.IdRef="Sequence_43">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="sd:DataTable" Name="excel_to_dt" />
                                     <Variable x:TypeArguments="x:String" Name="capDocSearch" />
                                     <Variable x:TypeArguments="x:String" Name="DocNum" />
                                     <Variable x:TypeArguments="x:Boolean" Name="foundDoc" />
                                     <Variable x:TypeArguments="sd:DataTable" Name="remove_dup_batMat_tb" />
+                                    <Variable x:TypeArguments="x:Int32" Name="isDataAfterReduce_OneMat" />
                                   </Sequence.Variables>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,177" sap2010:WorkflowViewState.IdRef="LogMessage_29" Message="[&quot;File =&gt; &quot; &amp; CurrentFile.Name &amp; &quot; START&quot;]" />
-                                  <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[excel_to_dt]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="546,120" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="Sheet1" WorkbookPath="[CurrentFile.FullName]" />
-                                  <Assign sap:VirtualizedContainerService.HintSize="546,116" sap2010:WorkflowViewState.IdRef="Assign_17">
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1088,177" sap2010:WorkflowViewState.IdRef="LogMessage_29" Message="[&quot;File =&gt; &quot; &amp; CurrentFile.Name &amp; &quot; START&quot;]" />
+                                  <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[excel_to_dt]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="1088,120" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="Sheet1" WorkbookPath="[CurrentFile.FullName]" />
+                                  <Assign sap:VirtualizedContainerService.HintSize="1088,116" sap2010:WorkflowViewState.IdRef="Assign_17">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="sd:DataTable">[remove_dup_batMat_tb]</OutArgument>
                                     </Assign.To>
@@ -858,7 +860,22 @@ Group row By c1 = row("Batch No."), c2 = row("Old material number") Into Group
 Select Group.First()).CopyToDataTable()]</InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="CommentOut_12">
+                                  <Assign sap:VirtualizedContainerService.HintSize="1088,115" sap2010:WorkflowViewState.IdRef="Assign_20">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:Int32">[isDataAfterReduce_OneMat]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:Int32">[remove_dup_batMat_tb.Rows.Count]</InArgument>
+                                    </Assign.Value>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Assign>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1088,177" sap2010:WorkflowViewState.IdRef="LogMessage_63" Message="[&quot;Datatable row =&gt; &quot; &amp; isDataAfterReduce_OneMat]" />
+                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1088,57" sap2010:WorkflowViewState.IdRef="CommentOut_12">
                                     <ui:CommentOut.Body>
                                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="Sequence_72">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -876,7 +893,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:CommentOut>
-                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="CommentOut_11">
+                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1088,57" sap2010:WorkflowViewState.IdRef="CommentOut_11">
                                     <ui:CommentOut.Body>
                                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,533" sap2010:WorkflowViewState.IdRef="Sequence_71">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -910,13 +927,13 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:CommentOut>
-                                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[remove_dup_batMat_tb]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="546,621" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+                                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[remove_dup_batMat_tb]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1088,5923" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
                                     <ui:ForEachRow.Body>
                                       <ActivityAction x:TypeArguments="sd:DataRow">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,423" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1054,5725" sap2010:WorkflowViewState.IdRef="Sequence_44">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="batch_no" />
                                             <Variable x:TypeArguments="x:String" Name="excel_old_mat" />
@@ -926,7 +943,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_10">
+                                          <Assign sap:VirtualizedContainerService.HintSize="992,115" sap2010:WorkflowViewState.IdRef="Assign_10">
                                             <Assign.To>
                                               <OutArgument x:TypeArguments="x:String">[batch_no]</OutArgument>
                                             </Assign.To>
@@ -934,7 +951,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <InArgument x:TypeArguments="x:String">[CurrentRow.Field(Of String)("Batch No.")]</InArgument>
                                             </Assign.Value>
                                           </Assign>
-                                          <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_12">
+                                          <Assign sap:VirtualizedContainerService.HintSize="992,115" sap2010:WorkflowViewState.IdRef="Assign_12">
                                             <Assign.To>
                                               <OutArgument x:TypeArguments="x:String">[excel_old_mat]</OutArgument>
                                             </Assign.To>
@@ -942,7 +959,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <InArgument x:TypeArguments="x:String">[CurrentRow.Field(Of String)("Old material number")]</InArgument>
                                             </Assign.Value>
                                           </Assign>
-                                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="992,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
                                             <ui:CommentOut.Body>
                                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_57">
                                                 <sap:WorkflowViewStateService.ViewState>
@@ -960,10 +977,10 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </ui:CommentOut>
-                                          <Sequence DisplayName="Search and download pack" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                                          <Sequence DisplayName="Search and download pack" sap:VirtualizedContainerService.HintSize="992,5350" sap2010:WorkflowViewState.IdRef="Sequence_45">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
@@ -1392,82 +1409,135 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:ForEachRow>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,177" sap2010:WorkflowViewState.IdRef="LogMessage_61" Message="[&quot;Waiting download complete 2sec..&quot;]" />
-                                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="546,123" sap2010:WorkflowViewState.IdRef="Delay_5" />
-                                  <Sequence DisplayName="Merge pdf" sap:VirtualizedContainerService.HintSize="546,1308" sap2010:WorkflowViewState.IdRef="Sequence_75">
-                                    <Sequence.Variables>
-                                      <Variable x:TypeArguments="s:String[]" Name="list_pdf_path" />
-                                      <Variable x:TypeArguments="x:Boolean" Name="isOutputPDF_exist" />
-                                    </Sequence.Variables>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1088,177" sap2010:WorkflowViewState.IdRef="LogMessage_61" Message="[&quot;Waiting download complete 3sec..&quot;]" />
+                                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="1088,123" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                                  <If Condition="[isDataAfterReduce_OneMat = 1]" DisplayName="If - mat cant merge" sap:VirtualizedContainerService.HintSize="546,677" sap2010:WorkflowViewState.IdRef="If_14">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_18">
-                                      <Assign.To>
-                                        <OutArgument x:TypeArguments="s:String[]">[list_pdf_path]</OutArgument>
-                                      </Assign.To>
-                                      <Assign.Value>
-                                        <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles("C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack")]</InArgument>
-                                      </Assign.Value>
-                                    </Assign>
-                                    <ui:FolderExistsX DisplayName="Folder Exists" Exists="[isOutputPDF_exist]" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="FolderExistsX_1" Path="[$&quot;C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack\output\{Date.Now.ToString(&quot;yyyy_MM_dd&quot;)}\&quot;]" />
-                                    <If Condition="[isOutputPDF_exist]" DisplayName="If - Check folder exist" sap:VirtualizedContainerService.HintSize="450,619" sap2010:WorkflowViewState.IdRef="If_13">
-                                      <If.Then>
-                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                                    <If.Then>
+                                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="Sequence_82">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,177" sap2010:WorkflowViewState.IdRef="LogMessage_62" Message="[&quot;Merge error may be occured ! &quot; + &quot; =&gt; Move file instead (•_•)&quot;]" />
+                                        <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack" sap:VirtualizedContainerService.HintSize="354,48" sap2010:WorkflowViewState.IdRef="ForEachFileX_6" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                                          <ui:ForEachFileX.Body>
+                                            <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                                              <ActivityAction.Argument1>
+                                                <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile_single" />
+                                              </ActivityAction.Argument1>
+                                              <ActivityAction.Argument2>
+                                                <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                              </ActivityAction.Argument2>
+                                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,272" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[$&quot;C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack\output\{Date.Now.ToString(&quot;yyyy_MM_dd&quot;)}\{CurrentFile.Name.Split(&quot;.&quot;c)(0)}.pdf&quot;]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="354,184" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[CurrentFile_single.FullName]" />
+                                              </Sequence>
+                                            </ActivityAction>
+                                          </ui:ForEachFileX.Body>
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,168" sap2010:WorkflowViewState.IdRef="LogMessage_59" Message="[$&quot;\output\{Date.Now.ToString(&quot;yyyy_MM_dd&quot;)}\ =&gt; Exist! &quot;]" />
-                                        </Sequence>
-                                      </If.Then>
-                                      <If.Else>
-                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,192" sap2010:WorkflowViewState.IdRef="Sequence_80">
+                                        </ui:ForEachFileX>
+                                      </Sequence>
+                                    </If.Then>
+                                    <If.Else>
+                                      <Sequence DisplayName="Else - mat over 2 can merge" sap:VirtualizedContainerService.HintSize="512,193" sap2010:WorkflowViewState.IdRef="Sequence_83">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <Sequence DisplayName="Merge pdf" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_75">
+                                          <Sequence.Variables>
+                                            <Variable x:TypeArguments="s:String[]" Name="list_pdf_path" />
+                                            <Variable x:TypeArguments="x:Boolean" Name="isOutputPDF_exist" />
+                                          </Sequence.Variables>
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="354,104" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="[&quot;C:\\Users\\scmrpaadmin.th\\Desktop\\COA_Data_test\\Download_pack\\output\\&quot; + Date.Now.ToString(&quot;yyyy_MM_dd&quot;)]" />
+                                          <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_18">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="s:String[]">[list_pdf_path]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles("C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack")]</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                          <ui:FolderExistsX DisplayName="Folder Exists" Exists="[isOutputPDF_exist]" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="FolderExistsX_1" Path="[$&quot;C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack\output\{Date.Now.ToString(&quot;yyyy_MM_dd&quot;)}\&quot;]" />
+                                          <If Condition="[isOutputPDF_exist]" DisplayName="If - Check folder exist" sap:VirtualizedContainerService.HintSize="450,617" sap2010:WorkflowViewState.IdRef="If_13">
+                                            <If.Then>
+                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_59" Message="[$&quot;\output\{Date.Now.ToString(&quot;yyyy_MM_dd&quot;)}\ =&gt; Exist! &quot;]" />
+                                              </Sequence>
+                                            </If.Then>
+                                            <If.Else>
+                                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,192" sap2010:WorkflowViewState.IdRef="Sequence_80">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="354,104" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="[&quot;C:\\Users\\scmrpaadmin.th\\Desktop\\COA_Data_test\\Download_pack\\output\\&quot; + Date.Now.ToString(&quot;yyyy_MM_dd&quot;)]" />
+                                              </Sequence>
+                                            </If.Else>
+                                          </If>
+                                          <upap:JoinPDF DisplayName="Join PDF Files" FileList="[list_pdf_path]" sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="JoinPDF_2" OutputFileName="[$&quot;C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack\output\{Date.Now.ToString(&quot;yyyy_MM_dd&quot;)}\{CurrentFile.Name.Split(&quot;.&quot;c)(0)}.pdf&quot;]" />
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="LogMessage_56" Message="[&quot;Merge done! at &quot; + Date.Now.ToString(&quot;hh:mm:ss&quot;)]" />
                                         </Sequence>
-                                      </If.Else>
-                                    </If>
-                                    <upap:JoinPDF DisplayName="Join PDF Files" FileList="[list_pdf_path]" sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="JoinPDF_2" OutputFileName="[$&quot;C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack\output\{Date.Now.ToString(&quot;yyyy_MM_dd&quot;)}\{CurrentFile.Name.Split(&quot;.&quot;c)(0)}.pdf&quot;]" />
-                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,170" sap2010:WorkflowViewState.IdRef="LogMessage_56" Message="[&quot;Merge done! at &quot; + Date.Now.ToString(&quot;hh:mm:ss&quot;)]" />
-                                  </Sequence>
-                                  <Sequence DisplayName="Delete file after merge" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="Sequence_77">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack" sap:VirtualizedContainerService.HintSize="450,665" sap2010:WorkflowViewState.IdRef="ForEachFileX_5" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
-                                      <ui:ForEachFileX.Body>
-                                        <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
-                                          <ActivityAction.Argument1>
-                                            <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile_del" />
-                                          </ActivityAction.Argument1>
-                                          <ActivityAction.Argument2>
-                                            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
-                                          </ActivityAction.Argument2>
-                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,373" sap2010:WorkflowViewState.IdRef="Sequence_78">
-                                            <sap:WorkflowViewStateService.ViewState>
-                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                              </scg:Dictionary>
-                                            </sap:WorkflowViewStateService.ViewState>
-                                            <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="[$&quot;{CurrentFile_del}&quot;]" />
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,170" sap2010:WorkflowViewState.IdRef="LogMessage_58" Message="[$&quot;Deleting ... {CurrentFile_del}&quot;]" />
-                                          </Sequence>
-                                        </ActivityAction>
-                                      </ui:ForEachFileX.Body>
-                                    </ui:ForEachFileX>
-                                  </Sequence>
+                                        <Sequence DisplayName="Delete file after merge" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_77">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="C:\Users\scmrpaadmin.th\Desktop\COA_Data_test\Download_pack" sap:VirtualizedContainerService.HintSize="450,661" sap2010:WorkflowViewState.IdRef="ForEachFileX_5" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                                            <ui:ForEachFileX.Body>
+                                              <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                                                <ActivityAction.Argument1>
+                                                  <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile_del" />
+                                                </ActivityAction.Argument1>
+                                                <ActivityAction.Argument2>
+                                                  <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                                </ActivityAction.Argument2>
+                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,369" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="[$&quot;{CurrentFile_del}&quot;]" />
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_58" Message="[$&quot;Deleting ... {CurrentFile_del}&quot;]" />
+                                                </Sequence>
+                                              </ActivityAction>
+                                            </ui:ForEachFileX.Body>
+                                          </ui:ForEachFileX>
+                                        </Sequence>
+                                      </Sequence>
+                                    </If.Else>
+                                  </If>
                                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,170" sap2010:WorkflowViewState.IdRef="LogMessage_52" Message="[&quot; ================== END File  ======================&quot;]" />
                                 </Sequence>
                               </ActivityAction>
