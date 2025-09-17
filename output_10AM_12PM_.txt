@@ -1,0 +1,293 @@
+09/15/2025 13:13:54 => [Debug] Debug started for file: Main
+09/15/2025 13:13:55 => [Info] COA_V2 execution started
+09/15/2025 13:13:55 => [Debug] New branch SCM ADMIN 03
+09/15/2025 13:13:55 => [Info] File count = 0
+09/15/2025 13:13:55 => [Info] Has folder but, have no files inside => Go on...
+09/15/2025 13:13:56 => [Debug] Audit: Using Web App. Browser: Chrome URL: https://resourcecenter.biomerieux.com/
+09/15/2025 13:14:07 => [Info] LOGIN Already
+09/15/2025 13:14:07 => [Debug] isLogin == True
+09/15/2025 13:14:07 => [Info] found Search page ╰(*°▽°*)╯
+09/15/2025 13:14:10 => [Info] END PROCESS - Out of web scope
+09/15/2025 13:14:10 => [Info] READY !
+09/15/2025 13:14:10 => [Info] \output\2025_09_15\ => Exist!
+09/15/2025 13:14:10 => [Debug] Audit: Using Web App. Browser: Chrome URL: https://resourcecenter.biomerieux.com/search/eifu
+09/15/2025 13:14:10 => [Info] File => BillNo_5151634159_1100_1300.xlsx START
+09/15/2025 13:14:10 => [Info] Datatable row => 5
+09/15/2025 13:14:11 => [Info] START Lot No. => 2447410
+09/15/2025 13:14:14 => [Info] Doc == 1
+09/15/2025 13:14:17 => [Info] Card matcode => AEB110869 ? AEB110869
+09/15/2025 13:14:17 => [Info] True
+09/15/2025 13:14:17 => [Info] click at count_id = 2
+09/15/2025 13:14:18 => [Info] START Lot No. => 2467970
+09/15/2025 13:14:21 => [Info] Doc == 2
+09/15/2025 13:14:27 => [Info] Card matcode => 42626 ? 42626
+09/15/2025 13:14:27 => [Info] True
+09/15/2025 13:14:27 => [Info] click at count_id = 2
+09/15/2025 13:14:28 => [Info] START Lot No. => 1011349590
+09/15/2025 13:14:30 => [Info] Doc == 2
+09/15/2025 13:14:36 => [Info] Card matcode => 30111 ? 30111
+09/15/2025 13:14:36 => [Info] True
+09/15/2025 13:14:36 => [Info] click at count_id = 2
+09/15/2025 13:14:37 => [Info] START Lot No. => 1011098170
+09/15/2025 13:14:39 => [Info] Doc == 3
+09/15/2025 13:14:48 => [Info] Card matcode => 30225 ? 30225
+09/15/2025 13:14:48 => [Info] True
+09/15/2025 13:14:48 => [Info] click at count_id = 2
+09/15/2025 13:14:50 => [Info] START Lot No. => 2484520
+09/15/2025 13:14:52 => [Info] Doc == 2
+09/15/2025 13:14:58 => [Info] Card matcode => AEB121609 ? AEB121609
+09/15/2025 13:14:58 => [Info] True
+09/15/2025 13:14:58 => [Info] click at count_id = 2
+09/15/2025 13:14:58 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:15:04 => [Info] Merge done! at 01:15:04
+09/15/2025 13:15:04 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011098170 - 10 - 30225.pdf
+09/15/2025 13:15:04 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011349590 - 13 - 30111.pdf
+09/15/2025 13:15:04 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2447410 - 3 - AEB110869.pdf
+09/15/2025 13:15:04 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2467970 - 2 - 42626.pdf
+09/15/2025 13:15:04 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2484520 - 4 - AEB121609.pdf
+09/15/2025 13:15:04 => [Info] ================== END File  ======================
+09/15/2025 13:15:04 => [Info] File => BillNo_5151634160_1100_1300.xlsx START
+09/15/2025 13:15:04 => [Info] Datatable row => 3
+09/15/2025 13:15:05 => [Info] START Lot No. => 2514200
+09/15/2025 13:15:07 => [Info] Doc == 4
+09/15/2025 13:15:16 => [Info] Card matcode => 418246 ? 418246
+09/15/2025 13:15:16 => [Info] True
+09/15/2025 13:15:16 => [Info] click at count_id = 2
+09/15/2025 13:15:19 => [Info] Card matcode => 418247 ? 418246
+09/15/2025 13:15:19 => [Info] False
+09/15/2025 13:15:20 => [Info] START Lot No. => 0000018
+09/15/2025 13:15:22 => [Info] Doc == 2
+09/15/2025 13:15:28 => [Info] Card matcode => 421202 ? 421202
+09/15/2025 13:15:28 => [Info] True
+09/15/2025 13:15:28 => [Info] click at count_id = 2
+09/15/2025 13:15:29 => [Info] START Lot No. => 435202B
+09/15/2025 13:15:32 => [Info] Doc == 6
+09/15/2025 13:15:44 => [Info] Card matcode => 421120 ? 421121
+09/15/2025 13:15:44 => [Info] False
+09/15/2025 13:15:47 => [Info] Card matcode => 421122 ? 421121
+09/15/2025 13:15:47 => [Info] False
+09/15/2025 13:15:49 => [Info] Card matcode => 421121 ? 421121
+09/15/2025 13:15:49 => [Info] True
+09/15/2025 13:15:49 => [Info] click at count_id = 2
+09/15/2025 13:15:50 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:15:55 => [Info] Merge done! at 01:15:55
+09/15/2025 13:15:55 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 0000018 - C - 421202.pdf
+09/15/2025 13:15:55 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2514200 - 3 - 418246.pdf
+09/15/2025 13:15:55 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 435202B - 5 - 421120.pdf
+09/15/2025 13:15:55 => [Info] ================== END File  ======================
+09/15/2025 13:15:55 => [Info] File => BillNo_5151634161_1100_1300.xlsx START
+09/15/2025 13:15:55 => [Info] Datatable row => 2
+09/15/2025 13:15:56 => [Info] START Lot No. => 1011227250
+09/15/2025 13:15:58 => [Info] Doc == 2
+09/15/2025 13:16:04 => [Info] Card matcode => 96124 ? 96124
+09/15/2025 13:16:04 => [Info] True
+09/15/2025 13:16:04 => [Info] click at count_id = 2
+09/15/2025 13:16:05 => [Info] START Lot No. => 2514070
+09/15/2025 13:16:07 => [Info] Doc == 2
+09/15/2025 13:16:13 => [Info] Card matcode => 43761 ? 43761
+09/15/2025 13:16:13 => [Info] True
+09/15/2025 13:16:13 => [Info] click at count_id = 2
+09/15/2025 13:16:14 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:16:19 => [Info] Merge done! at 01:16:19
+09/15/2025 13:16:19 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011227250 - 9 - 96124.pdf
+09/15/2025 13:16:19 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2514070 - 6 - 43761.pdf
+09/15/2025 13:16:19 => [Info] ================== END File  ======================
+09/15/2025 13:16:19 => [Info] File => BillNo_5151634163_1100_1300.xlsx START
+09/15/2025 13:16:19 => [Info] Datatable row => 2
+09/15/2025 13:16:20 => [Info] START Lot No. => 2514070
+09/15/2025 13:16:21 => [Info] Doc == 2
+09/15/2025 13:16:27 => [Info] Card matcode => 43761 ? 43761
+09/15/2025 13:16:27 => [Info] True
+09/15/2025 13:16:27 => [Info] click at count_id = 2
+09/15/2025 13:16:28 => [Info] START Lot No. => 2514020
+09/15/2025 13:16:31 => [Info] Doc == 4
+09/15/2025 13:16:40 => [Info] Card matcode => 424133 ? 424132
+09/15/2025 13:16:40 => [Info] False
+09/15/2025 13:16:43 => [Info] Card matcode => 424132 ? 424132
+09/15/2025 13:16:43 => [Info] True
+09/15/2025 13:16:43 => [Info] click at count_id = 2
+09/15/2025 13:16:43 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:16:48 => [Info] Merge done! at 01:16:48
+09/15/2025 13:16:48 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2514020 - 3 - 424133.pdf
+09/15/2025 13:16:48 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2514070 - 6 - 43761.pdf
+09/15/2025 13:16:48 => [Info] ================== END File  ======================
+09/15/2025 13:16:48 => [Info] File => BillNo_5151634165_1100_1300.xlsx START
+09/15/2025 13:16:48 => [Info] Datatable row => 1
+09/15/2025 13:16:49 => [Info] START Lot No. => 5072301984
+09/15/2025 13:16:50 => [Info] Doc = 0 => Continue next item...
+09/15/2025 13:16:50 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:16:55 => [Info] Merge error may be occured !  => Move file instead (•_•)
+09/15/2025 13:16:55 => [Info] ================== END File  ======================
+09/15/2025 13:16:55 => [Info] File => BillNo_5151634167_1100_1300.xlsx START
+09/15/2025 13:16:55 => [Info] Datatable row => 1
+09/15/2025 13:16:56 => [Info] START Lot No. => 5072302080
+09/15/2025 13:16:58 => [Info] Doc = 0 => Continue next item...
+09/15/2025 13:16:58 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:17:02 => [Info] Merge error may be occured !  => Move file instead (•_•)
+09/15/2025 13:17:02 => [Info] ================== END File  ======================
+09/15/2025 13:17:02 => [Info] File => BillNo_5151634169_1100_1300.xlsx START
+09/15/2025 13:17:02 => [Info] Datatable row => 7
+09/15/2025 13:17:03 => [Info] START Lot No. => 1011419230
+09/15/2025 13:17:06 => [Info] Doc == 2
+09/15/2025 13:17:12 => [Info] Card matcode => 20600 ? 20600
+09/15/2025 13:17:12 => [Info] True
+09/15/2025 13:17:12 => [Info] click at count_id = 2
+09/15/2025 13:17:13 => [Info] START Lot No. => 1011370680
+09/15/2025 13:17:15 => [Info] Doc == 2
+09/15/2025 13:17:21 => [Info] Card matcode => 70422 ? 70422
+09/15/2025 13:17:21 => [Info] True
+09/15/2025 13:17:21 => [Info] click at count_id = 2
+09/15/2025 13:17:23 => [Info] START Lot No. => 1011273480
+09/15/2025 13:17:25 => [Info] Doc == 2
+09/15/2025 13:17:31 => [Info] Card matcode => 70494 ? 70494
+09/15/2025 13:17:31 => [Info] True
+09/15/2025 13:17:31 => [Info] click at count_id = 2
+09/15/2025 13:17:32 => [Info] START Lot No. => 1011334100
+09/15/2025 13:17:34 => [Info] Doc == 2
+09/15/2025 13:17:40 => [Info] Card matcode => 70493 ? 70493
+09/15/2025 13:17:40 => [Info] True
+09/15/2025 13:17:40 => [Info] click at count_id = 2
+09/15/2025 13:17:41 => [Info] START Lot No. => 1011267230
+09/15/2025 13:17:44 => [Info] Doc == 2
+09/15/2025 13:17:50 => [Info] Card matcode => 70442 ? 70442
+09/15/2025 13:17:50 => [Info] True
+09/15/2025 13:17:50 => [Info] click at count_id = 2
+09/15/2025 13:17:51 => [Info] START Lot No. => 1011220180
+09/15/2025 13:17:53 => [Info] Doc == 2
+09/15/2025 13:17:59 => [Info] Card matcode => 70491 ? 70491
+09/15/2025 13:17:59 => [Info] True
+09/15/2025 13:17:59 => [Info] click at count_id = 2
+09/15/2025 13:18:02 => [Info] START Lot No. => 1011266770
+09/15/2025 13:18:05 => [Info] Doc == 2
+09/15/2025 13:18:15 => [Info] Card matcode => 20500 ? 20500
+09/15/2025 13:18:15 => [Info] True
+09/15/2025 13:18:15 => [Info] click at count_id = 2
+09/15/2025 13:18:15 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:18:20 => [Info] Merge done! at 01:18:20
+09/15/2025 13:18:20 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011220180 - 2 - 70491.pdf
+09/15/2025 13:18:20 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011266770 - 13 - 20500.pdf
+09/15/2025 13:18:20 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011267230 - 3 - 70442.pdf
+09/15/2025 13:18:20 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011273480 - 2 - 70494.pdf
+09/15/2025 13:18:20 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011334100 - 4 - 70493.pdf
+09/15/2025 13:18:20 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011370680 - 2 - 70422.pdf
+09/15/2025 13:18:20 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011419230 - 10 - 20600.pdf
+09/15/2025 13:18:20 => [Info] ================== END File  ======================
+09/15/2025 13:18:20 => [Info] File => BillNo_5151634178_1100_1300.xlsx START
+09/15/2025 13:18:20 => [Info] Datatable row => 6
+09/15/2025 13:18:21 => [Info] START Lot No. => 1010809960
+09/15/2025 13:18:23 => [Info] Doc == 2
+09/15/2025 13:18:29 => [Info] Card matcode => 70530 ? 70530
+09/15/2025 13:18:29 => [Info] True
+09/15/2025 13:18:29 => [Info] click at count_id = 2
+09/15/2025 13:18:31 => [Info] START Lot No. => 1011298840
+09/15/2025 13:18:33 => [Info] Doc == 2
+09/15/2025 13:18:39 => [Info] Card matcode => 70520 ? 70520
+09/15/2025 13:18:39 => [Info] True
+09/15/2025 13:18:39 => [Info] click at count_id = 2
+09/15/2025 13:18:41 => [Info] START Lot No. => 1011259860
+09/15/2025 13:18:43 => [Info] Doc == 2
+09/15/2025 13:18:49 => [Info] Card matcode => 70510 ? 70510
+09/15/2025 13:18:49 => [Info] True
+09/15/2025 13:18:49 => [Info] click at count_id = 2
+09/15/2025 13:18:50 => [Info] START Lot No. => 1011366060
+09/15/2025 13:18:52 => [Info] Doc == 2
+09/15/2025 13:18:58 => [Info] Card matcode => 20300 ? 20300
+09/15/2025 13:18:58 => [Info] True
+09/15/2025 13:18:58 => [Info] click at count_id = 2
+09/15/2025 13:19:00 => [Info] START Lot No. => 1011384360
+09/15/2025 13:19:02 => [Info] Doc == 2
+09/15/2025 13:19:08 => [Info] Card matcode => 20120 ? 20120
+09/15/2025 13:19:08 => [Info] True
+09/15/2025 13:19:08 => [Info] click at count_id = 2
+09/15/2025 13:19:09 => [Info] START Lot No. => 1011403100
+09/15/2025 13:19:12 => [Info] Doc == 2
+09/15/2025 13:19:18 => [Info] Card matcode => 20100 ? 20100
+09/15/2025 13:19:18 => [Info] True
+09/15/2025 13:19:18 => [Info] click at count_id = 2
+09/15/2025 13:19:18 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:19:23 => [Info] Merge done! at 01:19:23
+09/15/2025 13:19:23 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1010809960 - 9 - 70530.pdf
+09/15/2025 13:19:23 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011259860 - 9 - 70510.pdf
+09/15/2025 13:19:23 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011298840 - 9 - 70520.pdf
+09/15/2025 13:19:23 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011366060 - 10 - 20300.pdf
+09/15/2025 13:19:23 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011384360 - 15 - 20120.pdf
+09/15/2025 13:19:23 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011403100 - 8 - 20100.pdf
+09/15/2025 13:19:23 => [Info] ================== END File  ======================
+09/15/2025 13:19:23 => [Info] File => BillNo_5151634180_1100_1300.xlsx START
+09/15/2025 13:19:23 => [Info] Datatable row => 15
+09/15/2025 13:19:24 => [Info] START Lot No. => 2476640
+09/15/2025 13:19:26 => [Info] Doc == 1
+09/15/2025 13:19:29 => [Info] Card matcode =>  ? 406-R4105-01
+09/15/2025 13:19:29 => [Info] False
+09/15/2025 13:19:30 => [Info] START Lot No. => 2489580
+09/15/2025 13:19:32 => [Info] Doc == 1
+09/15/2025 13:19:35 => [Info] Card matcode => 418429 ? 418429
+09/15/2025 13:19:35 => [Info] True
+09/15/2025 13:19:35 => [Info] click at count_id = 2
+09/15/2025 13:19:36 => [Info] START Lot No. => 2468930
+09/15/2025 13:19:38 => [Info] Doc == 1
+09/15/2025 13:19:41 => [Info] Card matcode =>  ? 312-R4095-01
+09/15/2025 13:19:41 => [Info] False
+09/15/2025 13:19:42 => [Info] START Lot No. => 2476590
+09/15/2025 13:19:44 => [Info] Doc == 1
+09/15/2025 13:19:47 => [Info] Card matcode =>  ? 406-R4105-01
+09/15/2025 13:19:47 => [Info] False
+09/15/2025 13:19:48 => [Info] START Lot No. => 2485290
+09/15/2025 13:19:50 => [Info] Doc == 1
+09/15/2025 13:19:53 => [Info] Card matcode =>  ? 301-R5095-01
+09/15/2025 13:19:53 => [Info] False
+09/15/2025 13:19:54 => [Info] START Lot No. => 2356970
+09/15/2025 13:19:56 => [Info] Doc == 1
+09/15/2025 13:19:59 => [Info] Card matcode => 418983 ? 418983
+09/15/2025 13:19:59 => [Info] True
+09/15/2025 13:19:59 => [Info] click at count_id = 2
+09/15/2025 13:20:00 => [Info] START Lot No. => 2480130
+09/15/2025 13:20:02 => [Info] Doc == 1
+09/15/2025 13:20:05 => [Info] Card matcode =>  ? 301-R3101-01
+09/15/2025 13:20:06 => [Info] False
+09/15/2025 13:20:06 => [Info] START Lot No. => 2489560
+09/15/2025 13:20:09 => [Info] Doc == 1
+09/15/2025 13:20:12 => [Info] Card matcode =>  ? 301-R3079-01
+09/15/2025 13:20:12 => [Info] False
+09/15/2025 13:20:13 => [Info] START Lot No. => 058536010
+09/15/2025 13:20:14 => [Info] Doc == 1
+09/15/2025 13:20:17 => [Info] Card matcode =>  ? 300-C1013-02
+09/15/2025 13:20:17 => [Info] False
+09/15/2025 13:20:18 => [Info] START Lot No. => 2467290
+09/15/2025 13:20:21 => [Info] Doc == 1
+09/15/2025 13:20:24 => [Info] Card matcode =>  ? 312-R4095-01
+09/15/2025 13:20:24 => [Info] False
+09/15/2025 13:20:24 => [Info] START Lot No. => 2476540
+09/15/2025 13:20:26 => [Info] Doc == 1
+09/15/2025 13:20:29 => [Info] Card matcode => 423518 ? 423518
+09/15/2025 13:20:29 => [Info] True
+09/15/2025 13:20:29 => [Info] click at count_id = 2
+09/15/2025 13:20:31 => [Info] START Lot No. => 2460180
+09/15/2025 13:20:32 => [Info] Doc == 1
+09/15/2025 13:20:35 => [Info] Card matcode => 423501 ? 423501
+09/15/2025 13:20:35 => [Info] True
+09/15/2025 13:20:35 => [Info] click at count_id = 2
+09/15/2025 13:20:37 => [Info] START Lot No. => 2474610
+09/15/2025 13:20:41 => [Info] Doc == 1
+09/15/2025 13:20:44 => [Info] Card matcode => 418429 ? 418429
+09/15/2025 13:20:44 => [Info] True
+09/15/2025 13:20:44 => [Info] click at count_id = 2
+09/15/2025 13:20:46 => [Info] START Lot No. => 2467270
+09/15/2025 13:20:48 => [Info] Doc == 1
+09/15/2025 13:20:51 => [Info] Card matcode =>  ? 406-R4106-01
+09/15/2025 13:20:51 => [Info] False
+09/15/2025 13:20:52 => [Info] START Lot No. => 2447130
+09/15/2025 13:20:54 => [Info] Doc == 1
+09/15/2025 13:20:57 => [Info] Card matcode => 418427 ? 418427
+09/15/2025 13:20:57 => [Info] True
+09/15/2025 13:20:57 => [Info] click at count_id = 2
+09/15/2025 13:20:58 => [Info] Waiting download complete 3.5sec..
+09/15/2025 13:21:02 => [Info] Merge done! at 01:21:02
+09/15/2025 13:21:02 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2356970 - QA_188_G - 418983.pdf
+09/15/2025 13:21:02 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2447130 - QA_182_F - 418427.pdf
+09/15/2025 13:21:02 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2460180 - QA_203_C - 423501.pdf
+09/15/2025 13:21:02 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2474610 - QA_184_F - 418429.pdf
+09/15/2025 13:21:02 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2476540 - QA_204_C - 423518.pdf
+09/15/2025 13:21:02 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2489580 - QA_184_F - 418429.pdf
+09/15/2025 13:21:02 => [Info] ================== END File  ======================
+09/15/2025 13:21:03 => [Info] COA_V2 execution ended in: 00:07:07
